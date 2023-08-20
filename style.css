@@ -1,0 +1,144 @@
+ body {
+    /* padding: 3% 5% 3% 5%; */
+    margin: 0px;
+    /* background: rgb(222,221,196);
+    background: linear-gradient(90deg, rgba(222,221,196,1) 0%, rgba(242,230,200,1) 35%, rgba(0,212,255,1) 100%); */
+}
+
+button{
+    background-color: #393947;
+    border: 0px;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navigation-bar {
+    display: flex;
+    padding-bottom: 8%;
+}
+
+#navbar-logo{
+    padding-right: 50%;
+    font-size: 28px;
+}
+
+.navbar-menu{
+    float: right;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.navbar-menu > a{
+    padding-right: 1rem;
+    font-size: 18px;
+    color: #F2EFDF;
+    text-decoration: none;
+}
+
+.main-text{
+    font-size: 48px;
+}
+
+#subtext{
+    font-size: 18px;
+}
+
+.block-01 {
+    display: flex;
+}
+
+#section-01{
+    /* background-color: #1F2937; */
+    background-color: #02000d;
+    color: #F2EFDF;
+    padding: 3% 5% 3% 5%;
+}
+
+#section-02 {
+    background-color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 5% 3% 5%;
+}
+
+.horizontal-scroll-section {
+    display: flex;
+}
+.horizontal-scroll-section div {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.horizontal-scroll-section img  {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 30px;
+}
+.horizontal-scroll-section p{
+    font-size: 1.15rem;
+}
+
+#section-03{
+    padding: 8% 5% 8% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #c1bfbf;
+}
+
+#section-03 i{
+    font-size: 36px;
+}
+#section-03 blockquote{
+    padding-left: 80%;
+    font-size: 20px;
+}
+
+#section-04{
+    padding: 8% 5% 8% 5%;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+}
+#outer-div{
+    padding: 1rem;
+    border-radius: 20px;
+    display: flex;
+    width: max-content;
+    align-items: center;
+    background-color: #050d17;
+    color: #c7c7c7;
+}
+
+#outer-div > *{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+#outer-div button{
+    height: min-content;
+    padding: 5px;
+}
+
+#copyright-section{
+    background-color: #050d17;
+    color: #F2EFDF;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 1440px) {
+    #copyright-section, #section-04, #outer-div, #section-03,.horizontal-scroll-section div , .horizontal-scroll-section  {
+        flex-wrap: wrap;
+    }
+}
+
+/* @media (max-width: 800px) {
+    #copyright-section, #section-04, #outer-div, #section-03,.horizontal-scroll-section div , .horizontal-scroll-section  {
+      flex-direction: column;
+    }
+  } */
